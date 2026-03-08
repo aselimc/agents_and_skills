@@ -1,5 +1,6 @@
 ---
 name: reward-engineering
+version: 1.0.0
 description: Design reward functions. Dense shaping, normalization, curriculum, and common pitfalls.
 ---
 

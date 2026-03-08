@@ -1,5 +1,6 @@
 ---
 name: dependency-security
+version: 1.0.0
 description: Dependency auditing. CVE scanning, SBOM, lock files, container image scanning.
 ---
 

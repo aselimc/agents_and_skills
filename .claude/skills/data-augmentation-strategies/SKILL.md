@@ -1,5 +1,6 @@
 ---
 name: data-augmentation-strategies
+version: 1.0.0
 description: Domain-appropriate data augmentation for CV, robotics, and NLP pipelines.
 ---
 

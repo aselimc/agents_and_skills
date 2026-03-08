@@ -1,5 +1,6 @@
 ---
 name: model-serving-infra
+version: 1.0.0
 description: Production model serving. Triton, TorchServe, BentoML. Dynamic batching, autoscaling, health checks.
 ---
 

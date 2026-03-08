@@ -1,5 +1,6 @@
 ---
 name: dataset-pipeline
+version: 1.0.0
 description: PyTorch Dataset/DataLoader patterns for efficient, reproducible data loading and augmentation.
 ---
 

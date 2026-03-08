@@ -1,5 +1,6 @@
 ---
 name: environment-design
+version: 1.0.0
 description: RL environment design. Gymnasium API, vectorized envs, observation/action spaces, curriculum.
 ---
 

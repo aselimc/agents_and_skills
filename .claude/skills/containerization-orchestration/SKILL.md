@@ -1,5 +1,6 @@
 ---
 name: containerization-orchestration
+version: 1.0.0
 description: Docker multi-stage builds, docker-compose, Kubernetes manifests, Helm, GPU support.
 ---
 

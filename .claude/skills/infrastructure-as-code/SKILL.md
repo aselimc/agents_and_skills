@@ -1,5 +1,6 @@
 ---
 name: infrastructure-as-code
+version: 1.0.0
 description: Terraform modules, state management, environment separation, cloud provisioning.
 ---
 

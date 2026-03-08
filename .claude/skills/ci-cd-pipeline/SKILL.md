@@ -1,5 +1,6 @@
 ---
 name: ci-cd-pipeline
+version: 1.0.0
 description: CI/CD pipeline design. Lint, test, build, scan, deploy with environment promotion and rollbacks.
 ---
 

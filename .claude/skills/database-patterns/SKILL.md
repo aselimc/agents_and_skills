@@ -1,5 +1,6 @@
 ---
 name: database-patterns
+version: 1.0.0
 description: Database design. Schema normalization, indexing, migrations, query optimization. SQL and NoSQL.
 ---
 

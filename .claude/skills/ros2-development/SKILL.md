@@ -1,5 +1,6 @@
 ---
 name: ros2-development
+version: 1.0.0
 description: Idiomatic ROS2 development. Lifecycle nodes, QoS, launch files, TF2, custom messages.
 ---
 

@@ -1,5 +1,6 @@
 ---
 name: paper-writing
+version: 1.0.0
 description: Academic paper writing. LaTeX, conference templates, experiment tables, rebuttals, contribution positioning.
 ---
 

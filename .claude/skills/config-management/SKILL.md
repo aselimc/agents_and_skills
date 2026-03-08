@@ -1,5 +1,6 @@
 ---
 name: config-management
+version: 1.0.0
 description: Config-driven design patterns. No hardcoded values in business logic.
 ---
 

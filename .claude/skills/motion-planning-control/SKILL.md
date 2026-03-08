@@ -1,5 +1,6 @@
 ---
 name: motion-planning-control
+version: 1.0.0
 description: Motion planning and control. MoveIt2, Nav2, trajectory optimization, PID/MPC, ros2_control.
 ---
 

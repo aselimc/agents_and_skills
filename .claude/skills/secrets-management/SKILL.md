@@ -1,5 +1,6 @@
 ---
 name: secrets-management
+version: 1.0.0
 description: Secrets handling. Never hardcode. Vault, env vars, rotation, leak detection.
 ---
 

@@ -1,5 +1,6 @@
 ---
 name: prompt-engineering
+version: 1.0.0
 description: Systematic prompt design. Structured output, few-shot, chain-of-thought, and anti-patterns.
 ---
 

@@ -1,5 +1,6 @@
 ---
 name: architecture-diagrams
+version: 1.0.0
 description: Generate Mermaid diagrams for system architecture, data flows, class hierarchies, and API sequences.
 ---
 

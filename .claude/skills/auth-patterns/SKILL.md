@@ -1,5 +1,6 @@
 ---
 name: auth-patterns
+version: 1.0.0
 description: Authentication and authorization. OAuth2, JWT, session management, RBAC/ABAC.
 ---
 

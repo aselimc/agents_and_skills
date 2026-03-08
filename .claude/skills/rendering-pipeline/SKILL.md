@@ -1,5 +1,6 @@
 ---
 name: rendering-pipeline
+version: 1.0.0
 description: Rendering for simulation and synthetic data. PBR, domain randomization, depth/mask rendering.
 ---
 

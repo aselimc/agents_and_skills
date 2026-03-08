@@ -50,14 +50,28 @@ The generated CLAUDE.md for each new project should include:
 - Conventions specific to the project
 - Reference to STATUS.md for current state
 
+## Project Templates
+
+See `project-templates.md` for pre-built agent+skill bundles for common project types (robotics, web app, ML research, etc.). Use these as starting points when bootstrapping.
+
 ## Directory Structure
 
 ```
 agents_and_skills/
-├── CLAUDE.md              # This file
+├── CLAUDE.md                          # This file
+├── README.md                          # Human-facing documentation
+├── STATUS.md                          # Current project state
+├── project-templates.md               # Pre-built bundles for common project types
+├── .gitignore
+├── scripts/
+│   └── validate.sh                    # Consistency checker
 ├── .claude/
-│   ├── agents/            # Agent definitions (.md files)
-│   └── skills/            # Skill definitions (folders with SKILL.md + references)
+│   ├── agents/                        # Agent definitions (.md files)
+│   ├── skills/
+│   │   ├── SKILL-REGISTRY.md          # Central skill catalog
+│   │   ├── SKILL-TEMPLATE.md          # Template for new skills
+│   │   └── <skill-name>/SKILL.md      # Individual skill definitions
+│   └── agent-memory/                  # Persistent memory per agent
 ```
 
 ## Workflow

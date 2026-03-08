@@ -1,5 +1,6 @@
 ---
 name: proposal-writer
+version: 1.0.0
 description: "Write technical project proposals or specific sections of proposals for research grants, technology development, and innovation projects. Use when the user asks to write, draft, or create a project proposal, grant proposal, research proposal, technical proposal, or any section thereof (e.g., abstract, objectives, methodology, work packages, budget justification, impact statement, Gantt chart). Also triggers on requests mentioning proposal-related terms like 'deliverables', 'milestones', 'work plan', 'state of the art', or 'expected outcomes'. Supports EU Horizon, NSF, TUBITAK, ERC, and generic proposal formats. Outputs via docx or pdf skills. Does NOT handle market research reports or business plans."
 ---
 

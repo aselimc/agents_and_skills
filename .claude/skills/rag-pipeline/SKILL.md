@@ -1,5 +1,6 @@
 ---
 name: rag-pipeline
+version: 1.0.0
 description: Retrieval-Augmented Generation. Chunking, embedding, vector stores, retrieval, and generation.
 ---
 

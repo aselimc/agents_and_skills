@@ -1,5 +1,6 @@
 ---
 name: numerical-methods
+version: 1.0.0
 description: Numerical solvers. ODE/PDE, FEM, sparse linear algebra, stability analysis.
 ---
 

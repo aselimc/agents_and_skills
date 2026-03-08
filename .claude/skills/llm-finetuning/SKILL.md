@@ -1,5 +1,6 @@
 ---
 name: llm-finetuning
+version: 1.0.0
 description: Fine-tune LLMs with LoRA/QLoRA, instruction tuning, and alignment (DPO/ORPO).
 ---
 

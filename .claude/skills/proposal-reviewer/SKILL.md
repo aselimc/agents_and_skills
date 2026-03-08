@@ -1,5 +1,6 @@
 ---
 name: proposal-reviewer
+version: 1.0.0
 description: "Review technical project proposals for quality, overpromises, legal risk, and internal consistency. Use when the user asks to review, check, evaluate, or critique a project proposal, grant proposal, or any section thereof. Also use when asked to find overpromises, check for legally binding language, verify consistency between sections (objectives vs work packages vs deliverables vs budget), or assess proposal readiness for submission. Accepts proposals as docx, pdf, or plain text input."
 ---
 

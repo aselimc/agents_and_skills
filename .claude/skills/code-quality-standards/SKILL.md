@@ -1,5 +1,6 @@
 ---
 name: code-quality-standards
+version: 1.0.0
 description: Org-wide code quality standards for linting, formatting, type safety, and error handling.
 ---
 

@@ -1,5 +1,6 @@
 ---
 name: pytorch-training-pipeline
+version: 1.0.0
 description: Standard PyTorch training patterns with AMP, DDP, checkpointing, and best practices.
 ---
 

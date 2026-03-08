@@ -1,5 +1,6 @@
 ---
 name: model-export-and-optimization
+version: 1.0.0
 description: Export PyTorch models to ONNX/TensorRT for production deployment. Validate numerical equivalence.
 ---
 

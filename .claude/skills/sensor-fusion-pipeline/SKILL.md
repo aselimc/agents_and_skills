@@ -1,5 +1,6 @@
 ---
 name: sensor-fusion-pipeline
+version: 1.0.0
 description: Multi-sensor fusion. EKF/UKF state estimation, camera-LiDAR-IMU calibration, point cloud registration.
 ---
 

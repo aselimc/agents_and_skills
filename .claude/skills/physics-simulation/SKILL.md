@@ -1,5 +1,6 @@
 ---
 name: physics-simulation
+version: 1.0.0
 description: Physics engine patterns. Rigid body dynamics, collision detection, constraint solvers, determinism.
 ---
 

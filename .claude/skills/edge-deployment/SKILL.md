@@ -1,5 +1,6 @@
 ---
 name: edge-deployment
+version: 1.0.0
 description: Deploy ML models on edge hardware. Runtime selection, containerized edge, OTA updates, MQTT telemetry.
 ---
 

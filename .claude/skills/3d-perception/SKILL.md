@@ -1,5 +1,6 @@
 ---
 name: 3d-perception
+version: 1.0.0
 description: 3D vision pipelines. Point clouds, depth estimation, 3D reconstruction, pose estimation, scene understanding.
 ---
 

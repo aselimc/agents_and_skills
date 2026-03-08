@@ -1,5 +1,6 @@
 ---
 name: ml-testing
+version: 1.0.0
 description: ML-specific testing. Shape validation, gradient flow, convergence sanity, data pipeline determinism.
 ---
 

@@ -1,5 +1,6 @@
 ---
 name: sim-to-real-transfer
+version: 1.0.0
 description: Bridge simulation to real hardware. Domain randomization, system ID, hardware abstraction.
 ---
 

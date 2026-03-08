@@ -1,5 +1,6 @@
 ---
 name: read-software-docs
+version: 1.0.0
 description: Read and navigate software package documentation websites. Use when the user provides a documentation URL and wants to understand an API, SDK, framework, or library. Triggers on requests like "read the docs at [url]", "look up [topic] in the [package] documentation", "what does [API] do according to the docs", or any task requiring fetching and comprehending online software documentation. Supports any HTML-based documentation site including Sphinx, Doxygen, ReadTheDocs, MkDocs, and custom doc sites. Common targets include NVIDIA Isaac Sim, Omniverse Kit, OpenUSD, ROS 2, PyTorch, and similar software packages.
 ---
 

@@ -1,5 +1,6 @@
 ---
 name: frontend-component-architecture
+version: 1.0.0
 description: Frontend component design. State management, routing, accessibility, responsive design, performance.
 ---
 

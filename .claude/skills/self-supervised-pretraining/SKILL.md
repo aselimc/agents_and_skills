@@ -1,5 +1,6 @@
 ---
 name: self-supervised-pretraining
+version: 1.0.0
 description: Self-supervised visual representation learning. Contrastive, masked, distillation, and JEPA methods.
 ---
 

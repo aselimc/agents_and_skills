@@ -1,5 +1,6 @@
 ---
 name: monitoring-observability
+version: 1.0.0
 description: Three pillars of observability. Metrics (Prometheus), logs (structured), traces (OpenTelemetry).
 ---
 

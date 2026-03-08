@@ -1,5 +1,6 @@
 ---
 name: rl-algorithm-implementation
+version: 1.0.0
 description: Implement RL algorithms (PPO, SAC, TD3) with proper numerical stability and vectorized envs.
 ---
 

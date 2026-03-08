@@ -1,5 +1,6 @@
 ---
 name: detection-segmentation-pipeline
+version: 1.0.0
 description: Object detection and segmentation pipelines. COCO/VOC formats, DETR/YOLO/Mask2Former, mAP/mIoU evaluation.
 ---
 

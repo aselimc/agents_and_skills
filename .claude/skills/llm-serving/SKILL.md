@@ -1,5 +1,6 @@
 ---
 name: llm-serving
+version: 1.0.0
 description: Deploy LLMs for inference. vLLM, TGI, quantization for serving, OpenAI-compatible APIs.
 ---
 

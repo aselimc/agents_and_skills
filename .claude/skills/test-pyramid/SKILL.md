@@ -1,5 +1,6 @@
 ---
 name: test-pyramid
+version: 1.0.0
 description: Balanced testing pyramid. Unit, integration, E2E tests. Coverage thresholds, fixture patterns.
 ---
 

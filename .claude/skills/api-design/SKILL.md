@@ -1,5 +1,6 @@
 ---
 name: api-design
+version: 1.0.0
 description: REST and GraphQL API design. OpenAPI specs, error handling, pagination, versioning.
 ---
 

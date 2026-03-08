@@ -1,5 +1,6 @@
 ---
 name: hyperparameter-search
+version: 1.0.0
 description: Systematic hyperparameter optimization with Optuna. Bayesian search with pruning.
 ---
 

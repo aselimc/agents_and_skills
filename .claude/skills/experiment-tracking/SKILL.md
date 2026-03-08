@@ -1,5 +1,6 @@
 ---
 name: experiment-tracking
+version: 1.0.0
 description: Track ML experiments with W&B or MLflow. Log hyperparams, metrics, artifacts, and system metrics.
 ---
 

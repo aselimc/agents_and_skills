@@ -1,5 +1,6 @@
 ---
 name: high-performance-computing
+version: 1.0.0
 description: Performance optimization. Vectorization, memory layout, GPU acceleration, profiling, parallelism.
 ---
 

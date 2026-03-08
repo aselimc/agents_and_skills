@@ -1,5 +1,6 @@
 ---
 name: quantization-pipeline
+version: 1.0.0
 description: Model quantization for deployment. PTQ, QAT, INT8/FP16/INT4, hardware-specific calibration.
 ---
 

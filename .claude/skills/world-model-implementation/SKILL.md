@@ -1,5 +1,6 @@
 ---
 name: world-model-implementation
+version: 1.0.0
 description: Learned dynamics models for prediction and planning. RSSM, JEPA, Dreamer, imagination-based RL.
 ---
 

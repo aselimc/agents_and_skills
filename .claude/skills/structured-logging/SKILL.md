@@ -1,5 +1,6 @@
 ---
 name: structured-logging
+version: 1.0.0
 description: JSON-structured logging with consistent fields and correlation IDs across services.
 ---
 

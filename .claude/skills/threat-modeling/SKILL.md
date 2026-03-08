@@ -1,5 +1,6 @@
 ---
 name: threat-modeling
+version: 1.0.0
 description: STRIDE threat modeling. Attack surfaces, trust boundaries, severity ratings, ML-specific threats.
 ---
 
