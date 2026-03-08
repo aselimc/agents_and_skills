@@ -2,7 +2,7 @@
 
 > Maintained by: **skill-library** agent
 > Last updated: 2026-03-08
-> Version: 1.0.0
+> Version: 1.1.0
 
 ---
 
@@ -598,6 +598,26 @@ Shared by agents working with deep learning models.
 | **Description** | Review proposals for quality, overpromises, legal risk, internal consistency (objectives vs work packages vs deliverables vs budget). |
 | **Tools** | Read tool |
 
+### `world-model-implementation`
+
+| Field | Value |
+|-------|-------|
+| **Status** | `active` |
+| **Category** | research |
+| **Agents** | world-model-researcher, rl-engineer, computer-vision-engineer, robotics-engineer |
+| **Description** | Implementation patterns for learned dynamics models: RSSM (Dreamer v1/v2/v3), transformer-based dynamics (IRIS, STORM), JEPAs (I-JEPA, V-JEPA) for predictive learning, action-conditioned video prediction, imagination-based planning (MPC with learned dynamics, Dyna-style training), and evaluation (FVD, LPIPS, prediction accuracy, downstream control return). |
+| **Key Libraries** | PyTorch, timm, MuJoCo, Isaac Lab, wandb |
+
+### `paper-writing`
+
+| Field | Value |
+|-------|-------|
+| **Status** | `active` |
+| **Category** | research |
+| **Agents** | research-paper-writer, docs-generator, computer-vision-engineer, rl-engineer, nlp-llm-specialist |
+| **Description** | Academic paper writing: LaTeX with conference templates (NeurIPS, ICML, CVPR, ICRA), structured sections (abstract, intro, related work, method, experiments, conclusion), experiment result tables (booktabs, siunitx), BibTeX/natbib bibliography management, rebuttal and response letter writing, and contribution positioning. |
+| **Key Libraries** | LaTeX, booktabs, natbib, TikZ, matplotlib (for figures) |
+
 ### `architecture-diagrams`
 
 | Field | Value |
@@ -693,6 +713,8 @@ These are utility skills for producing document artifacts. The duplicate `docume
 | **scientific-computing** | all 5 | numerical-methods, high-performance-computing, pytorch-training-pipeline, matplotlib, read-arxiv-paper |
 | **embedded-firmware-engineer** | all 5 | ros2-development, edge-deployment |
 | **edge-computing-architect** | all 5 | edge-deployment, quantization-pipeline, containerization-orchestration, ros2-development, sensor-fusion-pipeline |
+| **world-model-researcher** | all 5 | world-model-implementation, pytorch-training-pipeline, experiment-tracking, self-supervised-pretraining, sim-to-real-transfer, environment-design, read-arxiv-paper |
+| **research-paper-writer** | all 5 | paper-writing, read-arxiv-paper, citation-management, matplotlib, docx, pdf |
 | **agent-architect** | all 5 | prompt-engineering, architecture-diagrams |
 | **agent-evaluator** | all 5 | prompt-engineering, test-pyramid |
 | **skill-library** | all 5 | (meta: manages this registry) |
@@ -701,8 +723,9 @@ These are utility skills for producing document artifacts. The duplicate `docume
 
 ## Statistics
 
-- **Total active skills**: 45 (5 universal + 40 domain)
+- **Total active skills**: 47 (5 universal + 42 domain)
+- **Total agents**: 26 (24 original + 2 new: world-model-researcher, research-paper-writer)
 - **Deprecated skills**: 9
 - **Skills per domain**: 3-5 (target met)
-- **Most-reused skills**: pytorch-training-pipeline (5 agents), experiment-tracking (6 agents), read-arxiv-paper (6 agents), test-pyramid (4 agents), ci-cd-pipeline (4 agents)
-- **Highest coverage agents**: computer-vision-engineer (10 domain skills), devops-infra-engineer (6), nlp-llm-specialist (9)
+- **Most-reused skills**: read-arxiv-paper (8 agents), pytorch-training-pipeline (6 agents), experiment-tracking (7 agents), test-pyramid (4 agents), ci-cd-pipeline (4 agents)
+- **Highest coverage agents**: computer-vision-engineer (10 domain skills), nlp-llm-specialist (9), world-model-researcher (7), research-paper-writer (6)

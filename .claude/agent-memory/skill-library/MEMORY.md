@@ -1,31 +1,35 @@
 # Skill Library Agent Memory
 
 ## Registry Location
-- **Skill Registry**: `.claude/skills/SKILL-REGISTRY.md` (v1.0.0, created 2026-03-08)
+- **Skill Registry**: `.claude/skills/SKILL-REGISTRY.md` (v1.1.0, updated 2026-03-08)
 
-## Key Decisions (v1.0.0)
+## Key Decisions
 
-### Audit Results
+### v1.0.0 (2026-03-08) - Initial Audit
 - 9 skills deprecated/removed: geopandas, market-research-reports, theme-factory, web-artifacts-builder, dask, and 4 document-skills/* duplicates
-- 14 existing skills retained: read-arxiv-paper, read-software-docs, pytorch-lightning, transformers, scikit-learn, matplotlib, citation-management, webapp-testing, docx, pdf, pptx, xlsx, proposal-writer, proposal-reviewer
+- 14 existing skills retained
 - 31 new skills codified across 13 domain categories
+- 5 universal skills: git-workflow, code-quality-standards, structured-logging, read-software-docs, config-management
 
-### Registry Structure
-- 5 universal skills (all agents): git-workflow, code-quality-standards, structured-logging, read-software-docs, config-management
-- 40 domain skills across: ML/DL Core (5), CV (4), NLP (4), Robotics (4), RL (3), Inference/Edge (3), Full Stack (4), DevOps/MLOps (4), Security (3), QA (3), Scientific Computing (3), Simulation (2), Research/Docs (5)
+### v1.1.0 (2026-03-08) - Gap Analysis + New Agents
+- Gap analysis identified 9 capability gaps
+- 2 new agents created: world-model-researcher, research-paper-writer
+- 2 new skills added: world-model-implementation, paper-writing
+- Remaining 7 gaps addressed as: skills (4), prompt improvements (2), skill extensions (1)
 
-### Most-Reused Skills
-- experiment-tracking: 6 agents
-- read-arxiv-paper: 6 agents
-- pytorch-training-pipeline: 5 agents
-- test-pyramid: 4 agents
-- ci-cd-pipeline: 4 agents
+### New Agent Design Rationale
+- **world-model-researcher**: Passed all 5 criteria of agent-architect framework. User's core research area (SSL, JEPAs, world models). Unique persona crossing RL + CV + robotics dynamics. No existing agent covers >30%. Model: opus.
+- **research-paper-writer**: Passed all 5 criteria. Fundamentally different persona from docs-generator (scientific writing vs code docs). Research org needs dedicated paper writing. Model: opus.
+- 7 gaps did NOT warrant new agents: data annotation, LLM eval, video understanding, synthetic data, embedded patterns, GPU cost, API client gen.
 
-### Duplicate Resolution
-- document-skills/docx,pdf,pptx,xlsx -> consolidated to top-level versions
-- dask -> replaced by high-performance-computing skill (broader scope)
+### Org Stats
+- 26 agents, 47 active skills, 9 deprecated
+- User: CS master's, SSL / 2D-3D perception / JEPAs / world models
+- Most-reused skills: read-arxiv-paper (8), experiment-tracking (7), pytorch-training-pipeline (6)
 
-### Org Context
-- User: CS master's, expertise in SSL, 2D/3D perception, JEPAs, world models
-- Project focus: DL/CV/Robotics research + full-stack dev + academic research + tech entrepreneurship
-- 24 agents in org (see SKILL-REGISTRY.md coverage matrix)
+### Pending Skills (identified but not yet codified)
+- data-annotation-pipeline (MEDIUM-HIGH priority)
+- llm-evaluation (MEDIUM-HIGH)
+- video-understanding (MEDIUM)
+- synthetic-data-generation (MEDIUM)
+- embedded-firmware-patterns (MEDIUM-LOW)
