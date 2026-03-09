@@ -25,7 +25,7 @@ When the user describes a new project idea, you must:
 
 All agent definitions live in `.claude/agents/` in this repo:
 
-agent-architect, agent-evaluator, backend-architect, computer-vision-engineer, cto-orchestrator, data-engineer, devops-infra-engineer, docs-generator, edge-computing-architect, embedded-firmware-engineer, frontend-builder, inference-engineer, mlops-pipeline, mobile-app-builder, nlp-llm-specialist, project-manager, qa-test-engineer, realtime-sim-engine, research-paper-writer, rl-engineer, robotics-engineer, scientific-computing, security-guardian, skill-library, system-architect, world-model-researcher
+agent-architect, agent-evaluator, backend-architect, computer-vision-engineer, cto-orchestrator, data-engineer, devops-infra-engineer, docs-generator, edge-computing-architect, embedded-firmware-engineer, frontend-builder, inference-engineer, mlops-pipeline, mobile-app-builder, nlp-llm-specialist, online-researcher, project-manager, qa-test-engineer, realtime-sim-engine, research-paper-writer, rl-engineer, robotics-engineer, scientific-computing, security-guardian, skill-library, system-architect, world-model-researcher
 
 ## Available Skills
 
